@@ -1,6 +1,10 @@
 package main
 
+import "fmt"
+
 func main() {
 	setPuzzle()
-	showPuzzle()
+	print_board()
+	fmt.Println("-------------------")
+	solve(0)
 }

@@ -98,7 +98,7 @@ func setPuzzle() {
 
 }
 
-func showPuzzle() {
+func print_board() {
 	for i := 0; i <= 80; i++ {
 		if i%9 == 8 {
 			fmt.Println(board[i], " ")
