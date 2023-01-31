@@ -35,8 +35,9 @@ func visit(x, y int) {
 		if maze[x-1][y] == OK {
 			visit(x-1, y)
 		}
-
+		stack_top -= 1 //ウ
 	}
+	maze[x][y] = OK //エ
 
 }
 
@@ -44,13 +45,3 @@ type point struct {
 	x int
 	y int
 }
-
-//class
-
-//public class zahyou{
-//	int x;
-//	int y;
-//
-//	p
-//
-//}
